@@ -1,5 +1,5 @@
 {
-  "name": "websocket",
+  "name": "animation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "http-server dist"
   },
-  "author": "coursar",
+  "author": "alexandra luka",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.24.1",

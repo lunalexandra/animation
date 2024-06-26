@@ -1,0 +1,43 @@
+  .collapse-box {
+    width: 30%;
+  }
+  
+  .btn-collapse {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #3164fb;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .btn-collapse:hover {
+    background-color: #224fd4;
+    
+  }
+  
+  .pressed {
+    outline: 3px solid #96adef;
+  }
+  
+  .collapse-text {
+    border: 1px solid #5c606b;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    animation-name: collapse;
+    animation-duration: 2s;
+    overflow: hidden;
+    transition: all 2s;
+  }
+  
+  .copy {
+    color: #5c606b;
+    text-align: right;
+  }
+  
+  
+  
+  

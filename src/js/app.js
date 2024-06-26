@@ -1,6 +1,9 @@
-import { RegistrationForm } from "./RegistrationForm";
+import { Collapse } from "./Collapse";
+import { Chat } from "./Chat";
 
 const container = document.querySelector(".container");
-const registration = new RegistrationForm(container);
+const collapse = new Collapse(container);
+const chat = new Chat(container);
 
-registration.render();
+collapse.bindToDOM();
+chat.bindToDOM();
